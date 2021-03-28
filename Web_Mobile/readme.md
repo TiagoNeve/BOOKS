@@ -46,3 +46,9 @@ servidores.
 de html para fazer uma conxeção com o servidor e utilizar o site no app, sem
 todas as funcionalidades que um browser permite executar.
 
+## Capítulo 5
+
+Sempre buscar criar sites responsivos e que tenha um designe elegante vários
+tipos de monitores.
+Com a ideia de design responsivo e da web única, para que o seu site esteja 
+disponível tanto para celulares, tablets, TV's e SmartchWare
