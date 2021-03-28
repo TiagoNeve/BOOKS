@@ -18,7 +18,7 @@ sua empresa. Utilizando de design responsivo.
 
 Deve-se adotar designs diferentes, um para mobile e outro para desktop.
 
-## App ou Web? Comparativo de possibilidades
+## Capítulo 3 - App ou Web? Comparativo de possibilidades
 
 Utilizar App apenas quando um sistema tem funções bem específicas que apenas
 um App poderia realizar, funções essas que é necessário o uso do hardware do 
@@ -33,4 +33,16 @@ a web é mais difícil de isso ocorrer, pois o site terá que ser acessado por u
 navegador que já tem uma vasta experiência com segurança de dados e de sites.
 
 Com a Web é possível democratizar o acesso, pois não é necessário cadastrar cada app em uma lógica específica.
+
+## Capítulo 4 
+
+A Web utiliza de HTML 5, css e javascript para renderizar sites e sistemas
+mas HTML 5 pode ser utilizado em outros cantos, como por exemplo um SO.
+
+HTML, CSS e JavaScript estão em todo lugar, tanto na web quanto em Apps e 
+servidores.
+
+É utilizado a criação de Packaged Apps com o intuito de utilizar um renderizador
+de html para fazer uma conxeção com o servidor e utilizar o site no app, sem
+todas as funcionalidades que um browser permite executar.
 
