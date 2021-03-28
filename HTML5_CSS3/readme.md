@@ -12,4 +12,9 @@ esse propriedade recebem o valor de border e padding e não se somam com
 o tamanho da largura ou altura. Por isso, bastante recomendado na criação de 
 layouts.
 
+```css
+    * {
+        box-sizing: border-box;
+    }
+```
 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        section {
+            border: 1px solid #000;
+            height: 100px;
+            margin: 40px auto;
+            width: 400px;
+        }
+
+        section h1 {
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #990000;
+            color: #fff;
+            font-size: 1.2em;
+            left: -10px;
+            padding: 5px 0;
+            position: relative;
+            text-align: center;
+            width: 420px;
+        }
+
+        h1::before {
+            border-color: transparent #7c0000 #7c0000 transparent;
+            border-style: solid;
+            border-width: 5px;
+            content: "";
+            left: 0;
+            position: absolute;
+            top: -10px;
+        }
+
+        h1::after {
+            border-color: transparent transparent #7c0000 #7c0000;
+            border-style: solid;
+            border-width: 5px;
+            content: "";
+            right: 0;
+            position: absolute;
+            top: -10px;
+        }
+
+
+
+        .help {
+            background-color: #f1efe6;
+            border: 1px solid #d3cdae;
+            font-size: 0.9em;
+            padding: 10px;
+            position: relative;
+            width: 300px;
+            margin: 40px auto;
+        }
+
+        .help::before {
+            border-color: transparent #d3cdae transparent transparent;
+            border-style: solid;
+            border-width: 14px;
+            content: "";
+            position: absolute;
+            left: -28px;
+            margin-top: -14px;
+            top: 50%;
+        }
+
+        blockquote {
+            text-align: center;
+            color: #444;
+            font-style: italic;
+            margin: 40px auto;
+        }
+
+        blockquote::before,
+        blockquote::after {
+            color: #000;
+            font-size: 3em;
+        }
+
+        blockquote::before {
+            content: "\201C";
+        }
+
+        blockquote::after {
+            content: "\201D";
+        }
+
+        .button {
+            background-color: #999999;
+            color: white;
+            display: inline-block;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            text-decoration: none;
+        }
+
+        .primary-button {
+            background-color: #389739;
+        }
+
+        .big-button {
+            font-size: 1.1em;
+        }
+
+        .small-button {
+            font-size: 0.9em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+        <h1>Um exemplo de pseudo elementos</h1>
+    </section>
+
+    <p class="help">
+        Preencha o campo com um e-mail válido, assim poderemos entrar em
+        contato com você para informar o resultado do nosso concurso.
+    </p>
+
+    <blockquote>
+        O problema com citações na Internet é que você não pode confirmar
+        a sua veracidade.
+    </blockquote>
+
+    <a href="#" class="button primary-button big-button">Enviar mensagem</a>
+    <a href="#" class="button small-button">Cancelar</a>
+</body>
+
+</html>
